@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mongodbdemo
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mahammadcoding
+      authentication-database: admin
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
+
